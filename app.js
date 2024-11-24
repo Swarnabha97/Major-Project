@@ -206,6 +206,6 @@ app.use((err, req, res, next)=> {
     console.log(err);
 })
 
-// app.listen(8080,()=>{
-//     console.log("server is listening to port 8080");
-// });
+app.listen(8080,()=>{
+    console.log("server is listening to port 8080");
+});
